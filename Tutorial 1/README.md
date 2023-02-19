@@ -28,7 +28,7 @@ Which allows to assign ip addresses for the connected nodes in a network to comm
 ### Creating a private virtual network
 
 1. Create a new virtual network from the Virtual box network manager.
-![alt](https://)
+![alt](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img1.jpg)
 2. second
 3. third
 
