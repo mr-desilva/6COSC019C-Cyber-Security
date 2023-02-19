@@ -29,6 +29,7 @@ Which allows to assign ip addresses for the connected nodes in a network to comm
 
 1. Create a new virtual network from the Virtual box network manager.
 ![alt](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img1.jpg)
-2. second
+2. Enable DHCP server, this will assign random IP address to the connected nodes (VMs) to the virtual network. Eg - range will be from 192.168.56.101 to 192.168.56.254
+![alt](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img2.jpg)
 3. third
 
