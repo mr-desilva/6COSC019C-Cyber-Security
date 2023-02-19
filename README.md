@@ -4,11 +4,11 @@
 
 | **Week Number**     | **Lecture** |
 | ----------- | ----------- |
-| Week 1       |   [Information Systems Security Fundamentals](https://)   |
-| Week 2   | [Network Security Fundamentals and Threats](https://)      |
+| Week 1       |   [Information Systems Security Fundamentals](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%201%20-%20Information%20Systems%20Security%20Fundamentals/W1-Lec.pdf)   |
+| Week 2   | [Network Security Fundamentals and Threats](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%202%20-%20Network%20Security%20Fundamentals%20and%20Threats/W2-Lec.pdf)      |
 | Week 3    | [](https://)      |
 
-Downloading VMs from the [UoW Link](https://download.ecs.westminster.ac.uk/VirtualMachines/) and import using the Virtual Box.
+Download VMs from the [UoW Link](https://download.ecs.westminster.ac.uk/VirtualMachines/) and import using the Virtual Box.
 
 ----------
 
