@@ -40,10 +40,17 @@ Which allows to assign ip addresses for the connected nodes in a network to comm
 | **VM**     | **Command** |
 | ----------- | ----------- |
 | OWASP Broken       |    `ifconfig`   |
-| Win 7 IE8   | `ifconfig`       |
+| Win 7 IE8   | `ipconfig`       |
 | KALI    | `ifconfig` or `sudo ifconfig`       |
 
 1. OWASP Broken<br>
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/owaspip.jpg">
-2. Wind 7 IE8
-3. KALI
+2. Wind 7 IE8<br>
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/win7ip.jpg">
+
+3. KALI<br>
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/kaliip.jpg">
+
+
+----------
+### Pining Connected Devices In The Same Private Virtual Network
