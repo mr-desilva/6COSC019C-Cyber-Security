@@ -44,12 +44,12 @@ Which allows to assign ip addresses for the connected nodes in a network to comm
 | KALI    | `ifconfig` or `sudo ifconfig`       |
 
 1. OWASP Broken<br>
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/owaspip.jpg" width="627" height="165">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/owaspip.jpg">
 2. Wind 7 IE8<br>
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/win7ip.jpg" width="627" height="165">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/win7ip.jpg">
 
 3. KALI<br>
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/kaliip.jpg" width="627" height="165">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/kaliip.jpg" >
 
 
 ----------
