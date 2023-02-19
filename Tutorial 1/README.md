@@ -19,17 +19,33 @@ Host-only networking is useful if you need to set up an isolated virtual network
 ### DHCP Server
 Which allows to assign ip addresses for the connected nodes in a network to communicate with each other.
 
+### Creating a private virtual network
+
+1. Create a new virtual network from the Virtual box network manager.
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img1.jpg">
+2. Enable DHCP server, this will assign random IP address to the connected nodes (VMs) to the virtual network. Eg - range will be from 192.168.56.101 to 192.168.56.254
+![alt](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img2.jpg)
+----------
+
+### Adding VMs to the private virtual network
+
 | **Network Adapter**      | **VM** |
 | ----------- | ----------- |
 | Host only adapter      | OWASP Broken       |
 | Host only adapter   | Win 7 IE8        |
 | Host only adapter (same private network group)   | KALI       |
 
-### Creating a private virtual network
+### Getting IP addresses 
 
-1. Create a new virtual network from the Virtual box network manager.
-![alt](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img1.jpg)
-2. Enable DHCP server, this will assign random IP address to the connected nodes (VMs) to the virtual network. Eg - range will be from 192.168.56.101 to 192.168.56.254
-![alt](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img2.jpg)
+| **VM**     | **Command** |
+| ----------- | ----------- |
+| OWASP Broken       |    `ifconfig`   |
+| Win 7 IE8   | `ifconfig`       |
+| KALI    | `ifconfig` or `sudo ifconfig`       |
+
+1. OWASP Broken
+![alt](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/owaspip.jpg)
+2. second
 3. third
 
+712*465
