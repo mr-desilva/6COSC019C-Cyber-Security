@@ -22,9 +22,9 @@ Which allows to assign ip addresses for the connected nodes in a network to comm
 ### Creating a private virtual network
 
 1. Create a new virtual network from the Virtual box network manager.
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img1.jpg">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img1.jpg" width="712" height="465">
 2. Enable DHCP server, this will assign random IP address to the connected nodes (VMs) to the virtual network. Eg - range will be from 192.168.56.101 to 192.168.56.254
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img2.jpg">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%201/Images/img2.jpg" width="712" height="465">
 ----------
 
 ### Adding VMs to the private virtual network
