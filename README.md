@@ -12,6 +12,30 @@ Download VMs from the [UoW Link](https://download.ecs.westminster.ac.uk/VirtualM
 
 ----------
 
+### Save Terminal output as a log
+Script is a unix utility command that records terminal session as a log file. Read the documentation from [here](https://man7.org/linux/man-pages/man1/script.1.html).
+
+```
+$ script output.txt
+Script started, file is output.txt
+
+# terminal session will be saved to the output.txt file.
+# do your commands..........
+#...................
+
+$ exit
+Script done, file is output.txt
+
+# Now the session is recorded in the output.txt file.
+# To open the file use the following command
+
+$ cat output.txt
+```
+
+
+
+----------
+
 
 ### Tutorial 1 - [Note ✅](https://github.com/mr-desilva/6COSC019C-Cyber-Security/tree/main/Tutorial%201)
 - Setting up VMs
