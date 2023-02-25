@@ -35,6 +35,15 @@ $ cat output.txt
 
 
 ----------
+### Static IPs
+| **VM**     | **IP** |
+| ----------- | ----------- |
+| Kali       |   192.168.56.101  |
+| OWASP | 192.168.56.102      |
+| Win 7 IE8    | 192.168.56.103      |
+
+----------
+
 
 
 ### Tutorial 1 - [Note ✅](https://github.com/mr-desilva/6COSC019C-Cyber-Security/tree/main/Tutorial%201)
