@@ -59,6 +59,11 @@ $ cat output.txt
 - User access controlling (Permission)
 - Networking
 - Linux package manager
-### Tutorial 3
-- coming soon....
+### Tutorial 3 - [Note ✅](https://github.com/mr-desilva/6COSC019C-Cyber-Security/tree/main/Tutorial%203)
+- OSINT tools
+- TheHarvester
+- SpiderFoot
+- Recon-ng
+- SIGIT – Simple Information Gathering Toolkit
+- Information Gathering
 
