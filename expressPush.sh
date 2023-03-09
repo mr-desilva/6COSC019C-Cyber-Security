@@ -1,4 +1,5 @@
 #!/bin/bash
+# use this command to push to the github.
 
 # get current branch and push
 current_branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
