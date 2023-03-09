@@ -19,7 +19,8 @@ Harvester is a tool for searches the information that are already available onli
 |-f|To save the output to a file.|
 
 
-Example code - `theHarvester -d westminster.ac.uk -b google -l 100`
+Example code
+ - `theHarvester -d westminster.ac.uk -b google -l 100` <br>
 
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img2.png">
 
