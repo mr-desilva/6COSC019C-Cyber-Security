@@ -20,11 +20,11 @@ Harvester is a tool for searches the information that are already available onli
 
 
 Example code
- - `theHarvester -d westminster.ac.uk -b google -l 100` <br>
+ - `theHarvester -d westminster.ac.uk -b google -l 100`
 
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img2.png">
 
-saving to an output file.
+saving to an output file.<br>
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img3.png">
 ----------
 
