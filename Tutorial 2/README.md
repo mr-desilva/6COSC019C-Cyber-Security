@@ -61,7 +61,7 @@
 1. Getting IP
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img1.png" width="712" height="465">
 2. Bringing down a specific network interface
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img2.png" width="712" height="465">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img2.png">
 
     To bring up use >> sudo ifconfig eth0 up
 3. Assigning a custom ip address for the network interface using command line.
@@ -80,20 +80,20 @@ Use sudo apt-get upgrade to regularly update the software repository list.
 1. Pipe take the output of one command and send it to another.
 Cat command will not display longer text. Using head command can view the number of lines needed to display.
 
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img5.png" width="712" height="465">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img5.png">
 
 2. Here displaying the top 3 lines in the document.
 Using the tail command can view the lines from the bottom.
  
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img6.png" width="712" height="465">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img6.png">
 
 3. We can use the grep command to search files for matching patterns.
 Bellow example shows finding the matching word ‘document’ within the text file.
 
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img7.png" width="712" height="465">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img7.png">
 
 4. Using -n can find the number of matching results.
 
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img8.png" width="712" height="465">
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%202/images/img8.png">
 
 Awk command is used to extract specific text from a file according to a rule.
