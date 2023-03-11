@@ -4,7 +4,6 @@
 Get the ip address of the owasp machine and type it in the kali vm browser.
 
 
-- [Tutorial 3](#tutorial-3)
 - [OSINT TOOLS](#osint-tools)
   - [1. TheHarvester](#1-theharvester)
   - [2. SpiderFoot](#2-spiderfoot)
