@@ -90,3 +90,7 @@ sudo nmap  -sV -O 192.168.56.102
 
 6. Output the result to a specific file in a specified format
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img16.png">
+
+
+
+
