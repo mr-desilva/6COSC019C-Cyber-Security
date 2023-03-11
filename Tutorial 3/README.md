@@ -4,11 +4,28 @@
 Get the ip address of the owasp machine and type it in the kali vm browser.
 
 
+- [Tutorial 3](#tutorial-3)
+- [OSINT TOOLS](#osint-tools)
+  - [1. TheHarvester](#1-theharvester)
+- [](#)
+  - [2. SpiderFoot](#2-spiderfoot)
+- [](#-1)
+  - [3. Recon-ng](#3-recon-ng)
+  - [4. SIGIT – Simple Information Gathering Toolkit](#4-sigit--simple-information-gathering-toolkit)
+- [](#-2)
+- [Information Gathering](#information-gathering)
+  - [Spoofing \& Decoy Scan](#spoofing--decoy-scan)
+  - [UDP Scan](#udp-scan)
+  - [List of Targets](#list-of-targets)
+  - [Summary of Nmap](#summary-of-nmap)
+  - [Using Nmap scripting Engine (NSE) for Reconnaissance](#using-nmap-scripting-engine-nse-for-reconnaissance)
+
+
 
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img1.png">
 
-
-### TheHarvester
+## OSINT TOOLS
+### 1. TheHarvester
 Harvester is a tool for searches the information that are already available online. This tool can search information without raising any alarms. This is a passive reconnaissance - an attempt to gain information about targeted computers and networks without actively engaging with the systems.
 
 |Parameter|Definition|
@@ -29,7 +46,7 @@ saving to an output file.<br>
 ----------
 
 
-### SpiderFoot
+### 2. SpiderFoot
 Gathering intelligence about a given target, which may be an IP address, domain name, hostname etc.
 
 1. Running spiderfoot in a port.
@@ -42,7 +59,7 @@ Gathering intelligence about a given target, which may be an IP address, domain 
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img6.png">
 ----------
 
-### Recon-ng
+### 3. Recon-ng
 
 Information gathering tool that uses different sources to gather data.
 
@@ -58,10 +75,11 @@ Information gathering tool that uses different sources to gather data.
 ----------
 
 
-### SIGIT – Simple Information Gathering Toolkit
+### 4. SIGIT – Simple Information Gathering Toolkit
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img10.png">
+----------
 
-### Information Gathering
+## Information Gathering
 Both VMs should be set to host-only adapter.
 
 1. Checking the host is up and server is responding.
@@ -70,17 +88,17 @@ Both VMs should be set to host-only adapter.
 2. Even after setting up the dns server, if the kali vm raise that cannot find a dns server use this alternate command which will use the specified dns server without touching the system configurations.
 nmap –dns-servers 6.7.8.9 192.168.56.102
 
-Scanning open ports.
+    Scanning open ports.
 
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img12.png">
+    <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img12.png">
 
 3. Checking the services that are running on the server and guessing the operating system.
-sudo nmap  -sV -O 192.168.56.102
+    `sudo nmap  -sV -O 192.168.56.102`
 
     -sV will request for the banner-header for each open ports.
     -O will guess the operating system on the target server based on the collected information from the open ports.
 
-<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img13.png">
+    <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img13.png">
 
 4. Checking if a host is up or not.
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img14.png">
@@ -112,3 +130,33 @@ Up to this point all the scan were done for the TCP ports. Previous methods will
 `sudo nmap -sU 192.168.56.102 `
 
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img18.png">
+
+
+`sudo nmap -sU --reason 192.168.56.102`
+
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img19.png">
+
+### List of Targets
+Setting a custom IP address to scan
+
+`mousepad scanlist.txt`<br>
+add several IP addresses<br>
+`nmap -iL scanlist.txt `
+
+Here only the 192.168.56.102 which is the web server ip address is scanned. 
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img20.png">
+
+----------
+
+### Summary of Nmap
+
+- Nmap is a port scanner. It send packets to a number of TCP or UDP ports on the target IP address and checks if there is a response. If there is, it means the port is open, hence a service is running on that port.
+- [The first command](#information-gathering) `nmap -sn 192.168.56.102`,  `-sn` parameter is used to check if the server is responding to the ICMP requests (or pings).
+- [The second command](#information-gathering) `nmap 192.168.56.102` is to ping the server, if it responds the Nmap send probes to a list of 1000 TCP ports to see which one responds and then reports the results one that responded.
+- `-sV` requests for the banner-header or self identification of each open port found, which is what it uses as the version.
+- `-O` will guess the operating system running based on information collected from open ports and versions.
+- Alternatives for Nmap are unicornscan, hping3, masscan, amap etc.
+
+----------
+### Using Nmap scripting Engine (NSE) for Reconnaissance
+

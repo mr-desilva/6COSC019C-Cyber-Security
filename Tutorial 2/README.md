@@ -1,4 +1,15 @@
 ## Tutorial 2
+- [Tutorial 2](#tutorial-2)
+  - [Linux File System](#linux-file-system)
+  - [Linux file system navigating commands.](#linux-file-system-navigating-commands)
+  - [Linux file system, file manipulating files and directories.](#linux-file-system-file-manipulating-files-and-directories)
+- [|cat|To display a text file within the terminal|](#catto-display-a-text-file-within-the-terminal)
+  - [Linux file permission](#linux-file-permission)
+  - [Networking](#networking)
+  - [Adding or removing software](#adding-or-removing-software)
+  - [Pipes and connecting things](#pipes-and-connecting-things)
+
+----------
 
 * To enter the super user mode in vm enter
 `sudo su` and then enter the password.
@@ -7,6 +18,7 @@
 
 * Edit mode `Insert` key. Then press esc and enter `:w` will save the file. Then `:q` to exit.
 
+----------
 
 ### Linux File System
 
