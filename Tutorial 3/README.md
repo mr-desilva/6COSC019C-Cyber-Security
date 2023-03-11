@@ -92,3 +92,23 @@ sudo nmap  -sV -O 192.168.56.102
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img16.png">
 
 
+----------
+
+### Spoofing & Decoy Scan
+Main goal is to hide the our IP by setting a decoy. This way the a security admin cannot pinpoint exact the source of the scan. We can use Nmap for this.
+
+|Parameter|Definition|
+|:----|:----|
+|-s|Spoof IP|
+|-D|Use multiple IP addresses|
+
+`sudo nmap -sS 192.168.56.102 -D 10.0.0.1,10.0.0.2,10.0.0.4
+`
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img17.png">
+
+### UDP Scan
+Up to this point all the scan were done for the TCP ports. Previous methods will not find any UDP ports on the target machine. Therefore we can use the `-sU` switch to scan UDP ports.
+
+`sudo nmap -sU 192.168.56.102 `
+
+<img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img18.png">
