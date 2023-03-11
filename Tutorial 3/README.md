@@ -92,5 +92,4 @@ sudo nmap  -sV -O 192.168.56.102
 <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%203/images/img16.png">
 
 
-
-
+![](images/img1.png)
