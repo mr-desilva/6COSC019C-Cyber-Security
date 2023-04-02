@@ -6,9 +6,20 @@
 | ----------- | ----------- |
 | Week 1       |   [Information Systems Security Fundamentals](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%201%20-%20Information%20Systems%20Security%20Fundamentals/W1-Lec.pdf)   |
 | Week 2   | [Network Security Fundamentals and Threats](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%202%20-%20Network%20Security%20Fundamentals%20and%20Threats/W2-Lec.pdf)      |
-| Week 3    | [Week 3 - Cryptography and Cryptogrphic Tools](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%203%20-%20Cryptography%20and%20Cryptogrphic%20Tools/W3-Lec.pdf)      |
+| Week 3    | [Cryptography and Cryptogrphic Tools](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%203%20-%20Cryptography%20and%20Cryptogrphic%20Tools/W3-Lec.pdf)      |
+| Week 4    | [AAA and Access Control](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%204%20-%20AAA%20and%20Access%20Control/W4-Lec.pdf)      |
+| Week 5    | [Malicious software and adverserial behaviours](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%205%20-%20Malicious%20software%20and%20adverserial%20behaviours/W5-Lec.pdf)      |
+| Week 7    | [Software and Web application security](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%207%20-%20Software%20and%20Web%20application%20security/W7-Lec.pdf)      |
+| Week 8    | [Defensive Technologies- Securing the Network and Services](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%208%20-%20Defensive%20Technologies-%20Securing%20the%20Network%20and%20Services/W8-Lec.pdf)      |
+| Week 9    | [Defensive Technologies -(Intrusion Detection and Firewalls)](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%209%20-%20Defensive%20Technologies%20-(Intrusion%20Detection%20and%20Firewalls)/W9-Lec%20(1).pdf)      |
+| Week 10    | [Risk management principles, Plans and procedures](https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Lectures/Week%2010%20-%20Risk%20management%20principles%2C%20Plans%20and%20procedures/W10-Lec.pdf)      |
+
 
 Download VMs from the [UoW Link](https://download.ecs.westminster.ac.uk/VirtualMachines/) and import using the Virtual Box.
+
+
+
+
 
 ----------
 
@@ -66,4 +77,9 @@ $ cat output.txt
 - Recon-ng
 - SIGIT – Simple Information Gathering Toolkit
 - Information Gathering
-
+### Tutorial 4 - [Note ✅](https://github.com/mr-desilva/6COSC019C-Cyber-Security/tree/main/Tutorial%204)
+- TCP flooding using hping3
+- Smurf DoS attack using DDos Ripper
+- MHDDos Attack Script With 51 Methods
+- Man in the Middle Attacks and Session Hijacking
+- Setting up a spoofing attack with Ettercap - ARP Spoofing
