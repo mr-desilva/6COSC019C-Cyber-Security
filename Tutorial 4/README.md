@@ -4,6 +4,7 @@
   - [1.3 MHDDos Attack Script With 51 Methods](#13-mhddos-attack-script-with-51-methods)
   - [1.4 Man in the Middle Attacks and Session Hijacking](#14-man-in-the-middle-attacks-and-session-hijacking)
   - [1.5 Setting up a spoofing attack with Ettercap - ARP Spoofing](#15-setting-up-a-spoofing-attack-with-ettercap---arp-spoofing)
+  - [1.6 Modifying the data between the client and the server](#16-modifying-the-data-between-the-client-and-the-server)
 
 ----------
 
@@ -90,3 +91,10 @@ Address Resolution Protocol (ARP) spoofing is maybe the most common MITM attack 
 
     <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%204/images/img11.png">
 
+----------
+### 1.6 Modifying the data between the client and the server
+Vulnerability : Command execution
+
+`;ls` , `;pwd`
+
+ <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%204/images/img12.png">
