@@ -98,3 +98,11 @@ Vulnerability : Command execution
 `;ls` , `;pwd`
 
  <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%204/images/img12.png">
+
+1. Go to the Kali vm and type the command, Checking the port is open
+    <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%204/images/img13.png">
+  
+2. `; ls /bin/nc*`
+   <img src="https://github.com/mr-desilva/6COSC019C-Cyber-Security/blob/main/Tutorial%204/images/img14.png">
+
+3. third
